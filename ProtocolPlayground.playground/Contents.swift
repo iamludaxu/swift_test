@@ -431,3 +431,10 @@ let morganTheHamster = Hamster(name: "Morgan")
 let mauriceTheHamster = Hamster(name: "Maurice")
 let hamsters = [murrayTheHamster, morganTheHamster, mauriceTheHamster]
 print(hamsters.textualDescription)
+extension Int {
+    var km {
+        return self * 1000
+    }
+}
+var v : Int = 7
+7.km
